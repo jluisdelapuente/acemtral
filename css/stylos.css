@@ -1,0 +1,114 @@
+body {
+	background-color:#A4A295;
+	
+
+	background-position: center top;
+	background-repeat:  repeat-y;
+	padding:0px;
+	margin:0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 70%;
+	line-height:1.4em;
+}
+h2 {
+	font-size:1.5em;
+	letter-spacing:-1px;
+	word-spacing:0.5em;
+	text-decoration:underline;
+}
+h3 {
+	font-size:1.3em;
+	letter-spacing:-1px;
+	word-spacing:0.5em;
+	text-decoration:underline;
+}
+table {
+	width:98%;
+	border-collapse:collapse;
+	margin:0px auto;
+}
+
+td, th {
+	padding:3px;
+	vertical-align:top;
+	border:1px solid #ccc;
+}
+table.Main td{
+	border:none;
+}
+p {
+	text-align:justify;
+}
+a {
+	color:#0053EA;
+	text-decoration:none;
+}
+a:hover {
+	color:#005CAF;
+	background-color:#F6DEB1;
+	text-decoration:none;
+	border-bottom:1px dashed #5B8EBC;
+}
+#Interfaz{
+	background-image: url(../images/InterfazBkg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width:100%;
+	margin:0px;
+}
+#Cabecera{
+	width:710px;
+	margin:0px auto;
+	padding-top:13px;
+	font-family: "Trebuchet MS", Tahoma, Verdana, sans-serif;
+}
+#Cuerpo{
+	width:710px;
+	margin:0px auto;
+	margin-top:10px;
+	padding-top:5px;
+}
+#Pie{
+	width:675px;
+	margin:0px auto;
+	margin-top:35px;
+	border:1px solid #ccc;
+	padding:10px;
+	padding-left:70px;
+	background-image: url(../images/PieBkg.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	height:57px;
+	font-size:0.95em;
+	line-height:1.2em;
+	font-family: "Trebuchet MS", Tahoma, Verdana, sans-serif;
+}
+/***********************************/
+#Pie p {
+	margin:0px;
+	padding:0px;
+}
+#Cabecera ul {
+	margin:0px;
+	padding:0px;
+	padding-top:5px;
+	text-align:right;
+}
+#Cabecera #Menu li {
+	list-style:none;
+	display:inline;
+}
+#Titulo {
+	float:left;
+}
+#Menu {
+	width:480px;
+	float:right;
+	background-image: url(images/ImgBarra.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	padding-bottom:15px;
+}
+.Clear {
+	clear:both;
+}
